@@ -1,0 +1,82 @@
+.news-card {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex; /* Используем flex для расположения изображения и текста */
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+  }
+  
+  .news-image {
+    width: 200px; /* Фиксированная ширина изображения */
+    height: auto;
+    display: block;
+    margin-right: 15px; /* Отступ справа от изображения */
+  }
+  
+  .news-info {
+    padding: 15px;
+    flex-grow: 1; /* Занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Распределяем элементы по вертикали */
+  }
+  
+  .news-title {
+    font-size: 1.3em; /* Увеличиваем размер заголовка */
+    font-weight: bold; /* Делаем заголовок жирным */
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .news-meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .news-actions {
+    display: flex;
+    justify-content: flex-end; /* Кнопки вправо */
+    margin-bottom: 5px;
+  }
+  
+  .news-actions button {
+    padding: 8px 12px;
+    margin-left: 5px; /* Отступ слева между кнопками */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .news-author {
+    font-size: 0.8em;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Автор справа */
+  }
+  
+  .news-author span {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }

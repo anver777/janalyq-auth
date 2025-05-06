@@ -1,0 +1,72 @@
+.add-news-form-redesigned {
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff; /* Белый фон, как на скриншоте */
+  }
+  
+  .add-news-form-redesigned h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+    color: #333;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    font-size: 1em;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group select,
+  .form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  .form-group textarea {
+    min-height: 150px;
+  }
+  
+  .add-news-form-redesigned button[type="submit"] {
+    background-color: #28a745; /* Зеленый цвет кнопки "Добавить новость" */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
+  .add-news-form-redesigned button[type="submit"]:hover {
+    background-color: #1e7e34;
+  }
+  
+  .form-group select option {
+    font-size: 1em;
+  }
+  
+  .form-group input[type="file"] {
+    padding: 8px; /* Немного меньше отступа для файла */
+  }
+  
+  .form-group p {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+  }

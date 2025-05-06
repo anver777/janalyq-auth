@@ -1,0 +1,77 @@
+/* Здесь могут быть стили для компонента CategoriesList */
+.categories-list {
+    padding: 20px;
+  }
+  
+  .categories-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .categories-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .categories-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .categories-list li button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .categories-list li button:first-child {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .categories-list li button:first-child:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .categories-list li button:last-child {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+  }
+  
+  .categories-list li button:last-child:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+  }
+  
+  .categories-list .add-category-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .categories-list .add-category-button:hover {
+    background-color: #1e7e34;
+  }

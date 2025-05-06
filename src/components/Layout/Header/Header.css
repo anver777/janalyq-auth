@@ -1,0 +1,111 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo a {
+    font-size: 1.5em;
+    color: #dc3545; /* Красный цвет логотипа */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation li {
+    margin-left: 20px;
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1em;
+  }
+  
+  .navigation li a:hover {
+    color: #007bff;
+  }
+  
+  .navigation .news-menu-item button {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background: none !important;
+    border-style: none !important; /* Явно убираем стиль границы */
+    border-color: transparent !important; /* Делаем цвет границы прозрачным */
+    border-width: 0 !important; /* Убираем ширину границы */
+    padding: 0 !important;
+    color: #555 !important;
+    font-size: 1em !important;
+    cursor: pointer !important;
+    outline: none !important;
+  }
+  
+  .navigation .news-menu-item button:focus {
+    outline: none !important;
+  }
+  
+  .navigation .news-menu-item button::-moz-focus-inner {
+    border: 0 !important;
+  }
+
+  .navigation .news-menu-item button:hover {
+    color: #007bff !important;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-links a.login-button-header {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .auth-links a.login-button-header:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-links button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .auth-links .add-button {
+    background-color: #28a745; /* Зеленый */
+    color: white;
+    border: none;
+  }
+  
+  .auth-links .add-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .auth-links .logout-button {
+    background-color: #dc3545; /* Красный */
+    color: white;
+    border: none;
+  }
+  
+  .auth-links .logout-button:hover {
+    background-color: #c82333;
+  }
+
