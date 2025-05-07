@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './CategoriesList.css';
-import { Link } from 'react-router-dom';
+
 
 function CategoriesList({ onAddCategoryClick, updateFlag }) {
   const [categories, setCategories] = useState(() => {
